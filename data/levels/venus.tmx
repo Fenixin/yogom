@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="youonlygetone!" tilewidth="16" tileheight="16">
+  <image source="../spritesheets/venus.png" width="312" height="224"/>
+ </tileset>
+ <imagelayer name="Capa de Imagen 1" width="18" height="20">
+  <image source="../images/venus.png"/>
+ </imagelayer>
+ <layer name="ramas colgantes" width="18" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBic4CgW9lFsCvGI41JHT3OINXOgALXcR6o5lMYBMeZjM4vUuKFX/A1UPFBiFqn5hRh5bHkLXf9Qyl+UAgChZhfc
+  </data>
+ </layer>
+ <layer name="marco y troncos gruesos" width="18" height="20">
+  <properties>
+   <property name="Collision" value="Platform"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJytUgEKwCAI7P8v2vqC7AutpyyhQYw74ZqCZHKdnlZKjh3Dz3mu8ZpjmPXeEnq5pv81G14TeJwjS5eJbxB+Zz6MR50PwkfzYXpVXYwf4aO9szziz9LlHEyXkm9BXdYn0hvtXdFlhfev8NeAR/kPjr2H98/5xh3ECN9JzR17AHr4Rsk=
+  </data>
+ </layer>
+ <layer name="Colision halfplatform" width="18" height="20">
+  <properties>
+   <property name="Collision" value="HalfPlatform"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6GATFBOSx6eGloAYu2nhPnr5GT18sfFpaTc+PiH1MDEQPk1ADy6zKfUfPrupYT4uM3HFFy415ICzZOobqgAAtwUbbA==
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1" width="18" height="20">
+  <object type="FireworkLauncher" gid="214" x="169" y="76"/>
+  <object type="FireworkLauncher" gid="214" x="96" y="128"/>
+  <object type="FireworkLauncher" gid="214" x="64" y="224"/>
+  <object type="FireworkLauncher" gid="214" x="128" y="224"/>
+  <object type="Player" gid="1" x="256" y="208">
+   <properties>
+    <property name="Camera" value="Fixed"/>
+    <property name="FromLocation" value="inicial"/>
+   </properties>
+  </object>
+  <object type="Cup" gid="96" x="128" y="256"/>
+  <object type="Coin" gid="251" x="208" y="224"/>
+  <object type="Coin" gid="251" x="112" y="176"/>
+  <object type="Coin" gid="251" x="80" y="176"/>
+  <object type="Coin" gid="251" x="128" y="176"/>
+  <object type="Coin" gid="251" x="64" y="176"/>
+  <object type="Coin" gid="251" x="80" y="224"/>
+  <object type="Coin" gid="251" x="16" y="208"/>
+  <object type="Coin" gid="251" x="64" y="272"/>
+  <object type="Coin" gid="251" x="80" y="272"/>
+  <object type="Coin" gid="251" x="240" y="272"/>
+  <object type="Coin" gid="251" x="224" y="272"/>
+  <object type="Coin" gid="251" x="144" y="272"/>
+  <object type="Coin" gid="251" x="16" y="80"/>
+  <object type="Coin" gid="251" x="208" y="160"/>
+  <object type="Coin" gid="251" x="96" y="40"/>
+  <object type="Coin" gid="251" x="96" y="55"/>
+  <object type="Coin" gid="251" x="256" y="192"/>
+  <object type="Coin" gid="251" x="32" y="80"/>
+  <object type="Coin" gid="251" x="256" y="32"/>
+  <object type="Coin" gid="251" x="240" y="32"/>
+  <object type="Cup" gid="96" x="144" y="128"/>
+  <object type="Pigeon" gid="172" x="97" y="187"/>
+  <object type="Pigeon" gid="172" x="224" y="176"/>
+  <object type="Pigeon" gid="172" x="143" y="101"/>
+  <object type="Cup" gid="96" x="32" y="256"/>
+  <object type="Cup" gid="96" x="224" y="256"/>
+  <object type="Cup" gid="96" x="48" y="128"/>
+  <object type="Coin" gid="251" x="112" y="224"/>
+  <object type="Coin" gid="251" x="176" y="128"/>
+  <object type="Coin" gid="251" x="256" y="128"/>
+  <object type="Coin" gid="251" x="128" y="272"/>
+  <object type="Pigeon" gid="172" x="51" y="103"/>
+ </objectgroup>
+ <layer name="Capa de patrones 2" width="18" height="20" opacity="0.38">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBgBAAWgAAE=
+  </data>
+ </layer>
+</map>

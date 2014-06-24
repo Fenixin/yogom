@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="youonlygetone!" tilewidth="16" tileheight="16">
+  <image source="../spritesheets/rapanui.png" width="312" height="224"/>
+ </tileset>
+ <imagelayer name="Capa de Imagen 1" width="18" height="20">
+  <image source="../images/rapanui.png"/>
+ </imagelayer>
+ <layer name="adorno" width="18" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw0chWJ0MWzqcOnDZgax5qCLYZMnFlCidxQQH1/o8pSmH1LsJkUMV/okJu3iU4uOiTFnMAAAwTchGA==
+  </data>
+ </layer>
+ <layer name="Capa de Patrones 1" width="18" height="20">
+  <properties>
+   <property name="Collision" value="Platform"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO2AHEOynEu4D4NBXccnbUnFFzRs0ZNYcMc+4B8X0K8QMquAUGAHmWNjE=
+  </data>
+ </layer>
+ <layer name="Colision halfplatform" width="18" height="20">
+  <properties>
+   <property name="Collision" value="HalfPlatform"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ASbsGBy1FDLLbjsxsXHp5dagFg/0zJsYObTSi+2OCZWDy4+qeqoBQZLfA1HAABOYxvR
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1" width="18" height="20">
+  <object type="FireworkLauncher" gid="214" x="208" y="64"/>
+  <object type="FireworkLauncher" gid="214" x="128" y="160"/>
+  <object type="FireworkLauncher" gid="214" x="144" y="160"/>
+  <object type="FireworkLauncher" gid="214" x="64" y="64"/>
+  <object type="FireworkLauncher" gid="214" x="135" y="264"/>
+  <object type="Player" gid="1" x="256" y="256">
+   <properties>
+    <property name="Camera" value="Fixed"/>
+    <property name="FromLocation" value="inicial"/>
+   </properties>
+  </object>
+  <object type="Cup" gid="96" x="80" y="256"/>
+  <object type="Coin" gid="251" x="224" y="176"/>
+  <object type="Coin" gid="251" x="160" y="160"/>
+  <object type="Coin" gid="251" x="128" y="48"/>
+  <object type="Coin" gid="251" x="256" y="192"/>
+  <object type="Coin" gid="251" x="144" y="48"/>
+  <object type="Coin" gid="251" x="48" y="272"/>
+  <object type="Coin" gid="251" x="64" y="272"/>
+  <object type="Coin" gid="251" x="16" y="144"/>
+  <object type="Coin" gid="251" x="224" y="272"/>
+  <object type="Coin" gid="251" x="208" y="272"/>
+  <object type="Coin" gid="251" x="256" y="144"/>
+  <object type="Coin" gid="251" x="16" y="48"/>
+  <object type="Coin" gid="251" x="160" y="64"/>
+  <object type="Coin" gid="251" x="128" y="224"/>
+  <object type="Coin" gid="251" x="112" y="64"/>
+  <object type="Cup" gid="96" x="144" y="256"/>
+  <object type="Cup" gid="96" x="176" y="64"/>
+  <object type="Pigeon" gid="172" x="80" y="128"/>
+  <object type="Pigeon" gid="172" x="192" y="128"/>
+  <object type="Cup" gid="96" x="96" y="64"/>
+  <object type="Cup" gid="96" x="176" y="160"/>
+  <object type="Cup" gid="96" x="32" y="64"/>
+  <object type="Cup" gid="96" x="96" y="160"/>
+  <object type="Cup" gid="96" x="240" y="64"/>
+  <object type="Coin" gid="251" x="112" y="160"/>
+  <object type="Coin" gid="251" x="16" y="192"/>
+  <object type="Pigeon" gid="172" x="192" y="240"/>
+  <object type="Pigeon" gid="172" x="64" y="240"/>
+  <object type="Pigeon" gid="172" x="16" y="64"/>
+  <object type="Pigeon" gid="172" x="256" y="64"/>
+  <object type="Cup" gid="96" x="144" y="256">
+   <properties>
+    <property name="direction" value="1"/>
+   </properties>
+  </object>
+  <object type="Cup" gid="96" x="208" y="256"/>
+  <object type="Cup" gid="96" x="16" y="256"/>
+  <object type="Coin" gid="251" x="144" y="224"/>
+  <object type="Coin" gid="251" x="109" y="240"/>
+  <object type="Coin" gid="251" x="160" y="240"/>
+  <object type="Coin" gid="251" x="48" y="176"/>
+  <object type="Coin" gid="251" x="64" y="176"/>
+  <object type="Coin" gid="251" x="208" y="176"/>
+  <object type="Coin" gid="251" x="256" y="48"/>
+  <object type="Cup" gid="96" x="80" y="256">
+   <properties>
+    <property name="direction" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

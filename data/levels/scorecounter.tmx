@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="youonlygetone!" tilewidth="16" tileheight="16">
+  <image source="../spritesheets/madrid.png" width="312" height="224"/>
+ </tileset>
+ <objectgroup name="Capa de Objetos 1" width="18" height="20">
+  <object type="MatchCounter" gid="153" x="0" y="297"/>
+  <object type="LivesCounter" gid="155" x="184" y="304"/>
+  <object type="BonusCounter" gid="158" x="211" y="-5"/>
+  <object type="ScoreCounter" gid="155" x="5" y="2"/>
+  <object type="HiScoreCounter" gid="155" x="115" y="2"/>
+ </objectgroup>
+</map>

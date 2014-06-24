@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="youonlygetone!" tilewidth="16" tileheight="16">
+  <image source="../spritesheets/nowhere.png" width="312" height="224"/>
+ </tileset>
+ <imagelayer name="Capa de Imagen 1" width="18" height="20">
+  <image source="../images/nowhere.png"/>
+ </imagelayer>
+ <layer name="papel" width="18" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh84AyFeNScUXNGzRk1h1xzBhMAAH9RzAE=
+  </data>
+ </layer>
+ <layer name="Colision fuerte" width="18" height="20">
+  <properties>
+   <property name="Collision" value="Platform"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO2AHEO4H4PhA/wMLHJQ7jw+jTVHDLLiC+RwVzzkLNohTsgppFKQCZQY3wAZlBjfC5xzA83TOc0w813HOagTruGYzxRai8IlSOwfjUAgBD+DZ/
+  </data>
+ </layer>
+ <layer name="Colision halfplatform" width="18" height="20">
+  <properties>
+   <property name="Collision" value="HalfPlatform"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5IJNUIzOppe9pNhJqnpKAbob6Wk3ujuIUUNLt+EzfyDDBt0N5Oolxmxi7KBmGAxkeFITAAArBxel
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1" width="18" height="20">
+  <object type="FireworkLauncher" gid="214" x="208" y="144"/>
+  <object type="FireworkLauncher" gid="214" x="16" y="176"/>
+  <object type="FireworkLauncher" gid="214" x="240" y="80"/>
+  <object type="FireworkLauncher" gid="214" x="32" y="80"/>
+  <object type="Player" gid="1" x="256" y="256">
+   <properties>
+    <property name="Camera" value="Fixed"/>
+    <property name="FromLocation" value="inicial"/>
+   </properties>
+  </object>
+  <object type="Cup" gid="96" x="115" y="103"/>
+  <object type="Coin" gid="251" x="208" y="208"/>
+  <object type="Coin" gid="251" x="240" y="64"/>
+  <object type="Coin" gid="251" x="112" y="256"/>
+  <object type="Coin" gid="251" x="112" y="96"/>
+  <object type="Coin" gid="251" x="16" y="48"/>
+  <object type="Coin" gid="251" x="144" y="176"/>
+  <object type="Coin" gid="251" x="224" y="48"/>
+  <object type="Coin" gid="251" x="192" y="192"/>
+  <object type="Coin" gid="251" x="176" y="208"/>
+  <object type="Coin" gid="251" x="160" y="160"/>
+  <object type="Coin" gid="251" x="256" y="48"/>
+  <object type="Coin" gid="251" x="128" y="272"/>
+  <object type="Coin" gid="251" x="32" y="32"/>
+  <object type="Coin" gid="251" x="48" y="48"/>
+  <object type="Coin" gid="251" x="96" y="80"/>
+  <object type="Coin" gid="251" x="80" y="96"/>
+  <object type="Coin" gid="251" x="240" y="32"/>
+  <object type="Coin" gid="251" x="144" y="256"/>
+  <object type="Cup" gid="96" x="96" y="256"/>
+  <object type="Pigeon" gid="172" x="32" y="151"/>
+  <object type="Pigeon" gid="172" x="240" y="208"/>
+  <object type="Pigeon" gid="172" x="128" y="128"/>
+  <object type="Cup" gid="96" x="48" y="80"/>
+  <object type="Coin" gid="251" x="144" y="144"/>
+  <object type="Coin" gid="251" x="128" y="160"/>
+  <object type="Cup" gid="96" x="176" y="224"/>
+  <object type="Coin" gid="251" x="128" y="240"/>
+  <object type="Coin" gid="251" x="192" y="224"/>
+  <object type="Coin" gid="251" x="96" y="112"/>
+  <object type="Coin" gid="251" x="32" y="64"/>
+  <object type="Coin" gid="251" x="32" y="272"/>
+  <object type="Coin" gid="251" x="32" y="256"/>
+  <object type="Cup" gid="96" x="128" y="176"/>
+  <object type="Cup" gid="96" x="176" y="105"/>
+  <object type="Pigeon" gid="172" x="98" y="213"/>
+ </objectgroup>
+ <layer name="Capa de patrones 2" width="18" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALywCYqmXOUSmaBzDlDJbMGAwAAX6wEbQ==
+  </data>
+ </layer>
+</map>
